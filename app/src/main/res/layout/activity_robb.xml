@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="team5.mavs.com.mavericksm.Robb">
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:text="Dr. John Robb" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:foregroundGravity="center"
+        android:src="@drawable/jrobb"
+        android:layout_below="@+id/buttonBack"
+        android:layout_centerHorizontal="true" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/imageView">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senior Lecturer
+
+University of Texas at Arlington
+
+January 2015 – Present
+
+Computer Science and Engineering department. Lecturing in graduate classes for Software Engineering and Software Testing
+
+Software Engineering Manager II
+
+BAE Systems
+
+March 2014 – November 2014 (9 months)Fort Worth
+
+Responsible for the KF-16 (South Korea) Mission Software Team overall software cost, schedule, plans, tools, processes and performance of the software team. The current team is 21 people with staffing plans to grow to 65 by mid-2015.
+
+Software Engineering Manager
+
+Parker Aerospace
+
+May 2013 – March 2014 (11 months)
+
+Both the Parker Aerospace Fort Worth Software Site Manager and the Parker Aerospace Software Verification and Validation Lead, responsible for supporting the development/verification of the software used for both commercial and military software projects. Accomplishments already include developing cost benchmarks for Parker safety critical software projects, managing a critical project toward successful closure, supporting CMMI Level 3 certification activities, updating the VandV plan to standardize our work, and supporting new project acquisition.
+
+Senior Software Manager
+
+Lockheed Martin
+
+November 1981 – March 2013 (31 years 5 months)
+
+Principal Embedded Systems Software Engineer (Mar 2013- Mar 2010)
+Software productivity improvement specialist. Made a number of significant software process changes to the Engineering Core processes focused on improving software productivity in terms of cost, schedule and cycle-time. Was SME for the F-35 Software processes delighting F-35 with a number of requests for help and special assignments. Also worked with LM Space (Denver) to radically improve their software productivity and cycle time.
+
+F-35 Air Vehicle Software Senior Manager (Feb 2010 – Aug 2004).
+Senior Manager of the Air Vehicle Software team coordinating software activities of the F-35 aircraft software development. Responsible for coordinating the development of Vehicle Systems, Mission Systems, Air Vehicle PHM, and the Laboratory software development teams of over 9 M SLOC of software for the JSF aircraft regularly interfacing with 50+ teams (Prime and Supplier). Primary owner of the overall JSF software development process and was responsible for tool support and upgrades for the program.
+
+JSF Vehicle Systems Software Integrator (Aug 2004 -2000 )
+Responsible for managing and coordinating the plans, processes, and products to be developed for the Joint Strike Fighter Vehicle Systems IPT (about 1 MSLOC). Coordinating and planning the use of advanced software tools, techniques and processes to help ensure a successful delivery of software despite aggressive delivery schedules.
+
+Senior Manager, F-22 Integrated Vehicle Systems IPT (2000 – 1991)
+Responsible for the development, verification, and delivery of several safety-critical software configuration items controlling the F-22 aircraft. Responsible for managing and coordinating with over 50 software engineers working in ten teams across development sites in the United States and Canada. Products developed include safety-critical flight software, development and test tools, and test stand, computer hardware and software.
+
+Professional Preparation
+2014
+Southern Methodist
+Ph.D. Engineering Software Engineering
+2006
+Program Management Institute
+Certified Program Management Professional (PM
+1993
+University of Texas at Arlington
+Masters of Science Computer Science
+1982
+University of Texas at Austin
+Bachelor of Science Computer Science
+1981
+University of Texas at Austin
+Bachelor of Science Electrical Engineering
+Appointments
+January 2013 December 2014 Member - Computer Science Industrial Advisory Board UTA CSE
+University of Texas at Arlington
+January 2000 December 2003 Advisory Panel Member
+Department of Natural Sciences - University of Texas at Austin
+Memberships
+October 2000 Ongoing Professional
+IEEE
+January 2000 Ongoing Senior Member
+IEEE"
+        android:id="@+id/textView10"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView" />
+</ScrollView>
+</RelativeLayout>

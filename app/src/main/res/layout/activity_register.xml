@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="team5.mavs.com.mavericksm.Register">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/green"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:onClick="onButtonClick" />
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffffff"
+        android:clipToPadding="true"
+        android:fillViewport="true"
+        android:padding="4dp"
+        android:scrollbarStyle="outsideOverlay">
+
+        <RelativeLayout
+            android:id="@+id/cleanlinessdrive_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvFName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="30dp"
+                android:text="First Name"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/etFName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_alignBottom="@+id/tvFName"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvLName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/etFName"
+                android:layout_marginTop="30dp"
+                android:text="Last Name"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etLName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_alignBottom="@+id/tvLName"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvUTAID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/etLName"
+                android:layout_marginTop="30dp"
+                android:text="UTA ID"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/etUTAID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:layout_alignBottom="@+id/tvUTAID"
+                android:layout_alignParentEnd="true" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvUTAID"
+                android:layout_marginTop="30dp"
+                android:text="Email ID"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:layout_alignBottom="@+id/textView4"
+                android:layout_alignParentEnd="true" />
+            <TextView
+                android:id="@+id/tvPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/etEmail"
+                android:layout_marginTop="30dp"
+                android:text="Contact Number"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:layout_alignBottom="@+id/tvPhone"
+                android:layout_alignParentEnd="true" />
+            <TextView
+                android:id="@+id/tvPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvPhone"
+                android:layout_marginTop="30dp"
+                android:text="Password"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:layout_alignBottom="@+id/tvPass"
+                android:layout_alignParentEnd="true" />
+            <TextView
+                android:id="@+id/tvCPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/etPassword"
+                android:layout_marginTop="30dp"
+                android:text="Confirm Password"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etCPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:layout_alignBottom="@+id/tvCPass"
+                android:layout_alignParentEnd="true" />
+            <TextView
+                android:id="@+id/tvNetID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/etCPassword"
+                android:layout_marginTop="30dp"
+                android:text="Net ID"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etNetID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_alignBottom="@+id/tvNetID"
+                android:layout_alignParentEnd="true" />
+            <TextView
+                android:id="@+id/tvRole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvNetID"
+                android:layout_marginTop="30dp"
+                android:text="Role"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"/>
+            <Spinner
+                android:id="@+id/rSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etNetID"
+                android:layout_alignParentEnd="true"
+                android:entries="@array/user_role"
+                android:layout_marginTop="30dp"
+                android:layout_alignStart="@+id/etUsername" />
+        </RelativeLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/btRegister"
+        android:onClick="onRegister"
+        android:background="@drawable/bg_bevelbutton"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</LinearLayout>

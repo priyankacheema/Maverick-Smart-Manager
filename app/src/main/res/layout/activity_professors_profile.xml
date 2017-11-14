@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="team5.mavs.com.mavericksm.ProfessorsProfile">
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:text="Professor's Profile" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/btLogout"
+        android:onClick="onCourseClick"
+        android:background="@drawable/bg_bevelbutton"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Robb"
+        android:id="@+id/button7"
+        android:background="@color/white"
+        android:textColor="@color/green"
+        android:layout_below="@+id/buttonBack"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/buttonBack" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sharma Chakravarthy"
+        android:id="@+id/button8"
+        android:background="@color/white"
+        android:textColor="@color/green"
+        android:layout_below="@+id/button7"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ishfaq Ahmad"
+        android:id="@+id/button9"
+        android:background="@color/white"
+        android:textColor="@color/green"
+        android:layout_below="@+id/button8"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ramez Elmasri"
+        android:id="@+id/button10"
+        android:background="@color/white"
+        android:textColor="@color/green"
+        android:layout_below="@+id/button9"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leonidas Fegaras"
+        android:id="@+id/button11"
+        android:background="@color/white"
+        android:textColor="@color/green"
+        android:layout_below="@+id/button10"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Junzhou Huang"
+        android:id="@+id/button12"
+        android:background="@color/white"
+        android:textColor="@color/green"
+        android:layout_below="@+id/button11"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button11" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chengkai Li"
+        android:id="@+id/button13"
+        android:background="@color/white"
+        android:textColor="@color/green"
+        android:layout_below="@+id/button12"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button12" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gergely Zaruba"
+        android:id="@+id/button14"
+        android:background="@color/white"
+        android:textColor="@color/green"
+        android:layout_above="@+id/btLogout"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/btLogout" />
+</RelativeLayout>

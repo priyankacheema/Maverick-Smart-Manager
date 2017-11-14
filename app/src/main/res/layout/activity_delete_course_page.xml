@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="team5.mavs.com.mavericksm.DeleteCoursePage">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/green"
+            android:text="Enroll"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@+id/back"
+            android:onClick="onButtonClick" />
+        <Button
+            android:id="@+id/back"
+            android:background="@drawable/bg_bevelbutton"
+            android:textColor="@color/white"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Back"
+            android:onClick="onButtonClick" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:text="LOCATION :"
+        android:id="@+id/tvSenderName"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_below="@+id/tvBody1"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/tvTime" />
+    <TextView
+        android:layout_width="60dp"
+        android:paddingTop="20dp"
+        android:layout_height="50dp"
+        android:text="COURSE ID:"
+        android:id="@+id/tvCourseID1"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp"
+        android:layout_alignEnd="@+id/textView2" />
+    <TextView
+        android:layout_width="60dp"
+        android:paddingTop="10dp"
+        android:layout_height="50dp"
+        android:text="COURSE NAME:"
+        android:id="@+id/tvCourseName1"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_below="@+id/tvCourseID"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/tvProfessor" />
+    <TextView
+        android:layout_width="150dp"
+        android:paddingTop="10dp"
+        android:layout_height="50dp"
+        android:text="TIME :"
+        android:textStyle="bold"
+        android:id="@+id/tvBody1"
+        android:gravity="left"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvCourseName1" />
+    <TextView
+        android:layout_width="200dp"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Sender"
+        android:id="@+id/tvLocation"
+        android:gravity="left"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tvBody1"
+        android:layout_toEndOf="@+id/tvBody1"
+        android:layout_above="@+id/textView2" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:paddingTop="20dp"
+        android:id="@+id/tvCourseID"
+        android:gravity="left"
+        android:layout_toEndOf="@+id/tvCourseName1"
+        android:layout_alignTop="@+id/tvCourseID1"
+        android:layout_alignBottom="@+id/tvCourseID1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Title"
+        android:id="@+id/tvCourseName"
+        android:gravity="left"
+        android:layout_below="@+id/tvCourseID"
+        android:layout_toEndOf="@+id/tvCourseName1"
+        android:layout_alignBottom="@+id/tvCourseName1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Body"
+        android:id="@+id/tvTime"
+        android:gravity="left"
+        android:layout_below="@+id/tvCourseName"
+        android:layout_toEndOf="@+id/tvCourseName1"
+        android:layout_above="@+id/tvLocation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:text="PROFESSOR :"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/tvSenderName"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/tvCourseName1" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="New Text"
+        android:id="@+id/tvProfessor"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignEnd="@+id/tvLocation" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Course"
+        android:id="@+id/btDelete"
+        android:background="@drawable/bg_bevelbutton"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

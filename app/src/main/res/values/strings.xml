@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maverick Smart Manager</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity_marks">Activity_marks</string>
+    <string name="title_activity_display_student">DisplayStudentActivity</string>
+    <string name="title_activity_absent_list_with_pic">AbsentListWithPIcActivity</string>
+    <string name="title_activity_image_display">ImageDisplayActivity</string>
+    <string name="emptyString1" />
+    <string name="emptyString2" />
+    <string name="emptyString3" />
+    <string name="empty"></string>
+    <string name="studentString" />
+    <string name="professorString" />
+    <string name="adviserString" />
+    <string-array name="user_role">
+        <item>Select Role</item>
+        <item>STUDENT</item>
+        <item>PROFESSOR</item>
+        <item>ADVISER</item>
+    </string-array>
+    <string-array name="professors">
+        <item>Dr. John Robb</item>
+        <item>Sharma Chakravarthy</item>
+        <item>Junzhou Huang</item>
+        <item>Ramez Elmasri</item>
+        <item>Leonidas Fegaras</item>
+        <item>Elizabeth Diaz</item>
+    </string-array>
+    <string-array name="assignment">
+        <item>Select Assignment</item>
+        <item>Assignment1</item>
+        <item>Assignment2</item>
+        <item>Assignment2</item>
+    </string-array>
+    <string name="title_activity_list_view_demo">ListViewDemo</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+</resources>

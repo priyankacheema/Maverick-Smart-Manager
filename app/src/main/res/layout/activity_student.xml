@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="team5.mavs.com.mavericksm.Student">
+    <Button
+        android:id="@+id/btStudName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:text="@string/studentString" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Courses"
+        android:layout_marginTop="75dp"
+        android:id="@+id/btStACourse"
+        android:background="@drawable/bg_bevelbutton"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/spinner" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Courses"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btStCCourse"
+        android:background="@drawable/bg_bevelbutton"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/spinner" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Announcements"
+        android:id="@+id/btStAnnmt"
+        android:background="@drawable/bg_bevelbutton"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/spinner" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="140dp"
+        android:id="@+id/btLogout"
+        android:background="@drawable/bg_bevelbutton"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:longClickable="false" />
+</LinearLayout>

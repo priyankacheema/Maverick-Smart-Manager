@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="team5.mavs.com.mavericksm.MarkAttendance"
+    android:weightSum="1">
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:text="Mark Attendance" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:paddingTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELECT"
+            android:background="@drawable/bg_bevelbutton"
+            android:textColor="@color/white"
+            android:onClick="showDatePickerDialog"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/button6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="SELECT DATE"
+            android:gravity="center"
+            android:id="@+id/textView8"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/button6"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView4"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.51" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/btMarkA"
+        android:background="@drawable/bg_bevelbutton"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/spinner" />
+</LinearLayout>

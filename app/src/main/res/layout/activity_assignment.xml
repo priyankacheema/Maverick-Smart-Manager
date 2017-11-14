@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="Assignments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9"
+        android:background="@color/green"
+        android:textColor="@color/white" />
+
+    <TableLayout android:id="@+id/score_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp">
+
+
+            <TextView
+                android:text="Assignment 1"
+                android:layout_width="90dp"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/textView9"
+                android:textSize="18sp"
+
+                android:textAlignment="center"
+                android:fontFamily="serif" />
+
+            <Button
+                android:text="View"
+                android:layout_width="35dp"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:id="@+id/imageButtond1"
+                android:background="@drawable/bg_bevelbutton" />
+
+            <Button
+                android:text="Attach"
+                android:layout_width="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_column="0"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:id="@+id/imageButtona1"
+                android:background="@drawable/bg_bevelbutton" />
+
+
+
+        </TableRow>
+<TableRow>
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp">
+        <TextView
+            android:text="Assignment 2"
+            android:layout_width="90dp"
+            android:layout_column="0"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/textView10"
+            android:textSize="18sp"
+
+            android:textAlignment="center"
+            android:fontFamily="serif" />
+
+        <Button
+            android:text="View"
+            android:layout_width="35dp"
+            android:layout_column="0"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:id="@+id/imageButtond2"
+            android:background="@drawable/bg_bevelbutton" />
+
+        <Button
+            android:text="Attach"
+            android:layout_width="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_column="0"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/imageButtona2"
+            android:background="@drawable/bg_bevelbutton" />
+
+
+
+    </TableRow>
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp">
+    <TextView
+        android:text="Assignment 3"
+        android:layout_width="90dp"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:id="@+id/textView11"
+        android:textSize="18sp"
+
+        android:textAlignment="center"
+        android:fontFamily="serif" />
+
+    <Button
+        android:text="View"
+        android:layout_width="35dp"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:id="@+id/imageButtond3"
+        android:background="@drawable/bg_bevelbutton" />
+
+    <Button
+        android:text="Attach"
+        android:layout_width="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_column="0"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/imageButtona3"
+        android:background="@drawable/bg_bevelbutton" />
+
+
+
+</TableRow>
+    <TableRow>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp">
+        <TextView
+            android:text="Assignment 4"
+            android:layout_width="90dp"
+            android:layout_column="0"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+
+            android:textAlignment="center"
+            android:fontFamily="serif" />
+
+        <Button
+            android:text="View"
+            android:layout_width="35dp"
+            android:layout_column="0"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:id="@+id/imageButtond4"
+            android:background="@drawable/bg_bevelbutton" />
+
+        <Button
+            android:text="Attach"
+            android:layout_width="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_column="0"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/imageButtona4"
+            android:background="@drawable/bg_bevelbutton" />
+
+
+
+    </TableRow>
+    </TableLayout>
+
+    <Button
+        android:text="Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:id="@+id/buttonlg"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_bevelbutton" />
+
+
+</LinearLayout>

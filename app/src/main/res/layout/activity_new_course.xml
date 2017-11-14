@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="team5.mavs.com.mavericksm.NewCourse">
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:text="Add New Course" />
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffffff"
+        android:clipToPadding="true"
+        android:fillViewport="true"
+        android:padding="4dp"
+        android:scrollbarStyle="outsideOverlay">
+
+        <RelativeLayout
+            android:id="@+id/cleanlinessdrive_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCourseID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="30dp"
+                android:text="Course ID"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/etCourseID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="eg. CSE 5324"
+                android:layout_alignBottom="@+id/tvCourseID"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvCourseName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/etCourseID"
+                android:layout_marginTop="30dp"
+                android:text="Course Name"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etCourseName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="eg. SE 1"
+                android:layout_alignBottom="@+id/tvCourseName"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvUTAID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/etCourseName"
+                android:layout_marginTop="30dp"
+                android:text="Department"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/etDepartment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:layout_alignBottom="@+id/tvUTAID"
+                android:layout_alignParentEnd="true"
+                android:hint="eg. CSE"/>
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvUTAID"
+                android:layout_marginTop="30dp"
+                android:text="Time"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="eg.11.00 AM - 12.20 PM"
+                android:layout_alignBottom="@+id/textView4"
+                android:layout_alignParentEnd="true" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView4"
+                android:layout_marginTop="30dp"
+                android:text="Location"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="eg. NH 111"
+                android:layout_alignBottom="@+id/textView5"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvRole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView5"
+                android:layout_marginTop="30dp"
+                android:text="Professor"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"/>
+            <Spinner
+                android:id="@+id/courseSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etLocation"
+                android:layout_alignParentEnd="true"
+                android:entries="@array/professors"
+                android:layout_marginTop="30dp"
+                android:layout_alignRight="@+id/tvRole"
+                android:layout_alignStart="@+id/etTime" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/btAddCourse"
+        android:onClick="onCourseClick"
+        android:background="@drawable/bg_bevelbutton"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/spinner" />
+</LinearLayout>

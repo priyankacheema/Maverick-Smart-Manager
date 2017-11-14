@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="team5.mavs.com.mavericksm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Uploadstudymaterial" />
+        <activity android:name=".Register" />
+        <activity android:name=".DemoUpload" />
+        <activity android:name=".Professor" />
+        <activity android:name=".Student" />
+        <activity android:name=".NewCourse" />
+        <activity android:name=".Announcement" />
+        <activity android:name=".displayListView" />
+        <activity android:name=".RawLayout" />
+        <activity android:name=".UploadAssignment" />
+        <activity android:name=".ProfessorScreen" />
+        <activity android:name=".StudentScreen" />
+        <activity android:name=".Attendance" />
+        <activity android:name=".StudenList" />
+        <activity android:name=".ProfCourses" />
+        <activity android:name=".rawCourse" />
+        <activity android:name=".DeleteCourse" />
+        <activity android:name=".DeleteRaw" />
+        <activity android:name=".ListView" />
+        <activity android:name=".rawDemo" />
+        <activity android:name=".StudentCourses" />
+        <activity android:name=".StudCourseRaw" />
+        <activity android:name=".EnrollCoursesRaw" />
+        <activity android:name=".EnrollCourse" />
+        <activity android:name=".DemoListView" />
+        <activity android:name=".DemoListViewRaw" />
+        <activity android:name=".EnrollCoursePage" />
+        <activity android:name=".DeleteCoursePage" />
+        <activity android:name=".MarkAttendance" />
+        <activity android:name=".ViewAttendance" />
+        <activity android:name=".DownloadStudyMaterials" />
+        <activity android:name=".RawMarkAttendance" />
+        <activity android:name=".Robb" />
+        <activity android:name=".Khalili" />
+        <activity android:name=".ProfessorsProfile" />
+        <activity android:name=".AssignGrade" />
+        <activity android:name=".MarkGrades" />
+        <activity android:name=".ViewGrades" />
+        <activity android:name=".Assignment" />
+        <activity android:name=".ChangePassword"></activity>
+    </application>
+
+</manifest>

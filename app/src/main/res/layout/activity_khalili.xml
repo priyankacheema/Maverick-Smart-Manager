@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="team5.mavs.com.mavericksm.Robb">
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:text="Sharma Chakravarthy" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:foregroundGravity="center"
+        android:src="@drawable/chakravarthy"
+        android:layout_below="@+id/buttonBack"
+        android:layout_centerHorizontal="true" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prof. Chakravarthy is an ACM Distinguished Scientist. He is also an IEEE Senior Member. He organized (General Co-Chair) the 13th international Conference on Distributed Event-Based Systems (DEBS 2013). He spent the summer of 2013 and 2014 at the Rome Air Force Research Laboratory working on, respectively, continuous query processing over fault-tolerant networks and applying stream processing framework to video analysis. He is a co-author of the book “Stream Data Processing: A Quality of Service Perspective” published by springer in 2009.
+
+Sharma Chakravarthy is Professor of Computer and Engineering Department at The University of Texas at Arlington, Texas. He established the Information Technology Laboratory (IT Lab)  at UT Arlington in Jan 2000 and currently heads it. Sharma Chakravarthy has also established the NSF funded, Distributed and Parallel Computing Cluster (DPCC@UTA) at UT Arlington in 2003. He is the recipient of the university-level “Creative Outstanding Researcher” award for 2003 and the department level senior outstanding researcher award in 2002.
+
+He is well known for his work on stream data processing, semantic query optimization, multiple query optimization, active databases (HiPAC project at CCA and Sentinel project at the University of Florida, Gainesville), and more recently scalability issues in graph mining and its applications.  His group at UTA is currently adapting map/reduce and other paradigms for scaling graph mining algorithms to very large graphs and for answering graph queries.  His work on InfoSift – a classification system for text, email, and web used graph mining techniques.
+
+His current research includes web technologies, stream data processing, scaling graph mining algorithms for analyzing social networks, active and real-time databases, distributed and heterogeneous databases, query optimization, and multi-media databases. He has published over 185 papers/book chapters in refereed international journals and conference proceedings. He has given tutorial on a number of database topics, such as active, real-time, distributed, object-oriented, and heterogeneous databases in North America, Europe, and Asia. He is listed in Who's Who Among South Asian Americans and Who's Who Among America's Teachers.
+
+Prior to joining UTA, he was with the University of Florida, Gainesville. Prior to that, he worked as a Computer Scientist at the Computer Corporation of America (CCA) and as a Member, Technical Staff at Xerox Advanced Information Technology, Cambridge, MA.
+
+Sharma Chakrvarthy received the B.E. degree in Electrical Engineering from the Indian Institute of Science, Bangalore and M.Tech from IIT Bombay, India. He worked at TIFR (Tata Institute of Fundamental Research), Bombay, India for a few years. He received M.S. and Ph.D degrees from the University of Maryland in College park in 1981 and 1985, respectively.
+
+Professional Preparation
+1985
+University of Maryland, College Park
+Ph.D. Computer Science
+1981
+University of Maryland, College Park
+M.S. Computer Science
+1975
+IIT Bombay, India
+M.Tech. Controls, Communications an Computer Science
+1973
+Indian Institute of Science, India
+B.E. Electrical Engineering
+1970
+Bangalore University
+Bachelor of Science Physics, Chemistry, Mathematics
+None
+Appointments
+January 2000 January 2013 Professor
+University of Texas at Arlington
+January 1989 January 1999 Assoc Prof
+University of Florida, Gainesville
+January 1988 January 1989 Member, Technical Staff
+Xerox, Cambridge, MA.
+January 1985 January 1988 Computer Scientist
+CoomputerCCA or Corporation of America, Cambridge, MA
+January 1975 January 1988 Scientific Officer
+TIFR (Tata Institute of Fundamental research, India)"
+            android:id="@+id/textView10"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView" />
+    </ScrollView>
+</RelativeLayout>

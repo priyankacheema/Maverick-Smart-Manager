@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="team5.mavs.com.mavericksm.UploadAssignment">
+    <Button
+        android:id="@+id/btStudName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:text="Upload Assignment" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/cleanlinessdrive_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvCPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="30dp"
+            android:text="Assignment 1"
+            android:textColor="?android:textColorPrimary"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/tvRole" />
+
+        <TextView
+            android:id="@+id/tvNetID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button2"
+            android:layout_marginTop="50dp"
+            android:text="Comments"
+            android:textColor="?android:textColorPrimary"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etNetID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:layout_alignBottom="@+id/tvNetID"
+            android:layout_alignParentEnd="true" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attach Document"
+                android:background="@drawable/bg_bevelbutton"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:id="@+id/button2"
+                android:layout_below="@+id/etCPassword"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="doc or pdf format      "
+                android:id="@+id/textView"
+                android:textColor="@color/greenEnd"
+                android:layout_above="@+id/tvNetID"
+                android:layout_toStartOf="@+id/button2" />
+
+        </RelativeLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:onClick="onSubmit"
+        android:layout_marginTop="100dp"
+        android:id="@+id/btSubmit"
+        android:background="@drawable/bg_bevelbutton"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:longClickable="false" />
+</LinearLayout>

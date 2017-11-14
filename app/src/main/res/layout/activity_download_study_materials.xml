@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="team5.mavs.com.mavericksm.DownloadStudyMaterials"
+    android:weightSum="1">
+    <Button
+        android:id="@+id/btStudName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:text="Download Study Materials" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="M03 - Software Requirements Elicitation"
+                android:id="@+id/textView3"
+                android:layout_below="@+id/textView7"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:background="@drawable/bg_bevelbutton"
+                android:textColor="@color/white"
+                android:text="Download"
+                android:id="@+id/button3"
+                android:layout_gravity="right"
+                android:layout_above="@+id/textView5"
+                android:layout_alignParentEnd="true" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Download"
+                android:id="@+id/button1"
+                android:background="@drawable/bg_bevelbutton"
+                android:textColor="@color/white"
+                android:layout_gravity="right"
+                android:layout_above="@+id/textView7"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Download"
+                android:background="@drawable/bg_bevelbutton"
+                android:textColor="@color/white"
+                android:id="@+id/button2"
+                android:layout_gravity="right"
+                android:layout_above="@+id/textView3"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="M01 - Introduction to Software Engineering"
+                android:id="@+id/textView4"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/button3" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Download"
+                android:background="@drawable/bg_bevelbutton"
+                android:textColor="@color/white"
+                android:id="@+id/button4"
+                android:layout_gravity="right"
+                android:layout_above="@+id/textView6"
+                android:layout_alignParentEnd="true" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="M02 - Software Process and Systems Engineering"
+                android:id="@+id/textView7"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/textView3" />
+
+            <TextView
+                android:layout_width="233dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="M03a - Software Requirements and the Project"
+                android:id="@+id/textView5"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/textView3" />
+
+
+    <TextView
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="M04 - Overview of Domain Modeling"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Download"
+        android:background="@drawable/bg_bevelbutton"
+        android:textColor="@color/white"
+        android:id="@+id/button5"
+        android:layout_gravity="right"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+
+</LinearLayout>
